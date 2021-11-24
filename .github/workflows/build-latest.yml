@@ -37,6 +37,9 @@ jobs:
           resource-group: ${{ secrets.AZURE_RG }}
           cluster-name: ${{ secrets.AKS_CLUSTER }}
           
+      - name: File List
+        run: ls
+          
       - name: Run Helm Deploy
         run: |
           helm upgrade \
