@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Defining variables..."
-export RESOURCE_GROUP_NAME=mslearn-gh-pipelines-$RANDOM
+export RESOURCE_GROUP_NAME=mslearn-gh-pipelines-23935
 export AKS_NAME=contoso-video
 export ACR_NAME=ContosoContainerRegistry$RANDOM
 
